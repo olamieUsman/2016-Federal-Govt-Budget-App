@@ -1,0 +1,169 @@
+/*
+# Created by Temitayo Ogunlolu
+# Company: BudgIT
+# Date: 12/2/2016
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+
+
+/* General Styling */
+body{
+    background-color: #e9eaed !important;
+    font-family: 'Noto Sans', sans-serif !important;
+}
+
+
+a {
+    text-decoration: none !important;
+}
+
+
+/* Header */
+header{
+    width: 100%;
+    min-height: 250px;
+    background-color: rgb(49,92,115);
+    border-bottom: 1px solid #D7DCE4;
+    z-index: 900;
+    top: 0;
+    border-top: 5px solid rgb(155,34,42);
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 50px;
+
+}
+
+
+
+
+/* Select section */
+
+.select{
+    margin-top: 30px;
+}
+
+.box1{
+    width: 100%;
+    height: 300px;
+    background-color: #f6f7f8;
+    border: 1px solid #dfe0e4;
+    padding: 30px;
+}
+
+.box2{
+    width: 100%;
+    height: 300px;
+    background-color: #fff;
+    border-right: 1px solid #dfe0e4;
+    border-top: 1px solid #dfe0e4;
+    border-bottom: 1px solid #dfe0e4;
+    padding: 30px;
+    padding-top: 60px;
+    text-align: center;
+
+}
+
+
+.sel-1
+{
+    background: #fff;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0;
+    padding: 5px 9px 3px;
+    border: 1px solid #b1b1b1;
+    font-family: proxima-nova,sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #404040;
+    margin-bottom: 15px;
+    height: 40px;
+    width: 100%;
+}
+
+
+
+/* Table */
+
+.table-1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    min-height: 500px;
+    background-color: #ffffff;
+    border: 1px solid #dfe0e4;
+}
+
+
+/* Download */
+.download-1{
+    margin-bottom: 20px;
+    min-height: 300px;
+    background-color: #f6f7f8;
+    border: 1px solid #dfe0e4;
+    overflow: hidden;
+    padding: 25px;
+}
+
+.download-1 .i-img{
+}
+
+.download-1 .i-img img{
+    width: 100%;
+
+}
+
+
+
+/* footer */
+
+footer{
+    text-align: center;
+    min-height: 50px;
+}
+
+footer a{
+    color: rgb(49,92,115);
+}
+
+.custom-search-input {
+        margin:0;
+        margin-top: 10px;
+        padding: 0;
+    }
+ 
+    .custom-search-input .search-query {
+        padding-right: 3px;
+        padding-right: 4px \9;
+        padding-left: 3px;
+        padding-left: 4px \9;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+ 
+        margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+ 
+    .custom-search-input button {
+        border: 0;
+        background: none;
+        /** belows styles are working good */
+        padding: 2px 5px;
+        margin-top: 2px;
+        position: relative;
+        left: -28px;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+        margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        color:#D9230F;
+    }
+ 
+    .search-query:focus + button {
+        z-index: 3;   
+    }
